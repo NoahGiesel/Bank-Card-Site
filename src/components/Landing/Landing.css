@@ -1,0 +1,50 @@
+.landing {
+    padding-top: 10vh;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.text-seciton { 
+    display: flex;
+    justify-content: center; 
+    margin: 15vh auto;
+}
+
+.text-seciton .landing-container h3 {
+    background: linear-gradient(to right, #F28482  0%, #619B8A 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 6rem; 
+    margin: 0;
+    line-height: 110px;
+}
+
+.text-seciton .landing-container h2 {
+    font-size: 6rem; 
+    margin: 0;
+    line-height: 110px;
+    color : #373F51;
+}
+
+ 
+.text-seciton .landing-container .text{ 
+    margin-top: 5vh;
+}
+
+.text-seciton .landing-container .text p { 
+    font-size: 1.1rem;
+}
+
+.image-seciton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-seciton img {
+    width: 90%; 
+    margin: 0 auto;
+}
