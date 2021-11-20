@@ -1,0 +1,42 @@
+.signup { 
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#619B8A ; 
+    padding: 10vh 0;
+}
+
+.signup .img-container {
+    position: relative ;  
+}
+
+.signup img {
+    position: absolute;
+    width: 80%;
+    top: -60%;
+    left: -10%;
+}
+ 
+
+.signup .right h2 { 
+    font-size: 3rem; 
+    color: #fff;
+    line-height: 60px;
+    margin-top: 0;
+}
+
+.signup .right a { 
+    text-decoration: none;
+    font-size: 1.3rem; 
+    background-color:#F28482;
+    color: #fff;
+    padding: 1.7vh 1.5vw; 
+    transition: 300ms;
+}
+
+.signup .right a:hover { 
+    background-color:#ec7270;
+    color: #fff;
+
+}

@@ -9,6 +9,8 @@ import card from "../../img/card-landing.png"
 const Landing = () => {
     return (
         <div className="landing">
+
+            { /* Left Section */ }
             <div className="text-seciton">
                 <div className="landing-container">
                     
@@ -29,10 +31,12 @@ const Landing = () => {
                     />
                     <h2>we plant trees.</h2>
                     <div className="text">
-                        <p>Make the world a better place.</p> 
+                        <p><span className="highlighted-text">Make the world a better place.</span></p> 
+                        <a className="bordered" href="#">Order Now</a>    
                     </div>
                 </div>
             </div>
+            { /* Right Section */ }
             <div className="image-seciton">
                 <img  src={card} alt="Logo"/>
             </div>

@@ -1,0 +1,32 @@
+.slogan {
+    padding: 15vh 0;
+    text-align: center;
+    background-image: url(../../img/open.svg),url(../../img/close.svg);
+    background-position: 80% 300px,20% 100px;
+    background-size: auto,auto;
+    background-repeat: no-repeat,no-repeat;
+}
+
+.slogan h2 {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 3.3rem;
+    color: #373F51 ;
+    font-weight: 200;
+}
+
+.slogan .line {
+    display: block;
+    content: "";
+    width: 2px;
+    height: 60px;
+    margin: 3vh auto;
+    background-color: #373f5193 ;
+}
+
+
+.slogan p {
+    font-size: 2rem;
+    color: #373F51 ;
+    margin: 4vh auto;
+}

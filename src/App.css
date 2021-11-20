@@ -3,11 +3,10 @@
 
 .App {
 
-  height: 100vh;
   /* background: linear-gradient(to bottom, #ee4b4b, #fad65f 50%, #DB1174, #9B4CA7); */
   background-color:#F2E2BA;
   font-family: 'Baloo 2', cursive;
-
+  padding-bottom: 10vh;
 }
  
 
