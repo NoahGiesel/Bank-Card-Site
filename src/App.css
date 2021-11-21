@@ -4,7 +4,7 @@
 .App {
 
   /* background: linear-gradient(to bottom, #ee4b4b, #fad65f 50%, #DB1174, #9B4CA7); */
-  background-color:#F2E2BA;
+  background-color:#f8eccc;
   font-family: 'Baloo 2', cursive;
   padding-bottom: 10vh;
 }
@@ -12,4 +12,17 @@
 
 .bordered {
   border-radius: 10px;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  transition: 250ms ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.03);
 }

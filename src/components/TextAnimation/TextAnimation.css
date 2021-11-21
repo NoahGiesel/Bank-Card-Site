@@ -1,0 +1,38 @@
+.textAnimation {
+    text-align: center;
+    width: 60%;
+    margin: 17vh auto;
+}
+
+.textAnimation h2 {
+    font-size: 4.5rem;
+    color: #619B8A;
+    margin:  0 0;
+    line-height: 100px;
+}
+
+.textAnimation h2 span { 
+    color : #F28482;
+}
+
+
+.textAnimation p{ 
+    font-size: 1.5rem;
+    margin: 3vh 0 ;
+    color : #619B8A;
+}
+
+
+.textAnimation .count h2 {
+    font-size: 8rem;
+    margin:  7vh 0 0 0 ;
+    background: linear-gradient(to right, #F28482  25%, #619B8A 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.textAnimation .count p { 
+    color: #619B8A;
+    font-weight: bold;
+    
+}

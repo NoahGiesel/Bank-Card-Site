@@ -8,7 +8,7 @@ const Slogan = () => {
         <div className="slogan">
             <h2>What you do makes a difference, and you have to decide what kind of difference you want to make.</h2>
             <div className="line"></div>
-            <p>JANE GOODALL, DBE</p>
+            <p>JANE GOODALL </p>
         </div>
     )
 }
