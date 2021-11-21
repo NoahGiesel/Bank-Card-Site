@@ -1,0 +1,60 @@
+.store {
+    position: relative; 
+    background-color: #619B8A;
+    width: 65%;
+    margin: 0 auto  ;
+    padding: 9vh 2.5vw; 
+    display: grid;
+    grid-template-columns: 7fr 1fr  ;
+}
+
+.store h2 {
+    font-size: 3rem;
+    margin:  0  0 ;
+    color: #fff;
+}
+
+.store p {
+    font-size: 1.3rem;
+    margin:  1vh 0;
+    color: #fff;
+}
+ 
+
+.store a { 
+    background-color:#F28482;
+    color: #fff;
+    transition: 300ms;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0 2vw;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;    
+}
+
+.store .group  {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto;
+}
+
+ .store a { 
+     padding: 1.5vh 1vw;
+     margin:  0 1vw;
+ }
+ 
+.store a img {     
+    max-width: 200px;
+    vertical-align: middle;
+    display: inline-block; 
+    padding: 0  ;
+}
+
+ 
+.store a:hover { 
+    background-color:#ec7270;
+    color: #fff;
+
+}

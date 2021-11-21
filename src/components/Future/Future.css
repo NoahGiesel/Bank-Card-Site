@@ -1,0 +1,70 @@
+.future {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.future h2 {
+    font-size: 4.5rem;
+    margin: 10vh 0;
+    color:   #619B8A;
+}
+
+
+.future .button  a{
+    margin: 0 1vw;
+    padding: 1.5vh 2vw;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+.future .button  .red { 
+    background-color: #F28482;
+ 
+}
+
+.future .button  .green {
+    background-color:  #619B8A;
+}
+
+
+.future .button  .red:hover { 
+    background-color: #EC7270; 
+}
+
+.future .button  .green:hover {
+    background-color:  #518877;
+}
+
+.future .looks-like-container { 
+    margin-top: 7vh;
+    padding: 8vh 3vw;
+    background-color: #619b8a80;
+    text-align: left;
+}
+
+.future .looks-like h2{
+    margin: 0 0 ; 
+    font-size: 4rem;
+    line-height: 70px;
+}
+
+.future .looks-like p{ 
+    font-size: 1.2rem;
+    color: #373F51; 
+    font-weight: bold;
+}
+
+.future .looks-like .grid{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;   
+ margin: 4vh 0;
+}
+
+
+
+

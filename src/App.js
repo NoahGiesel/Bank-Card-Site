@@ -6,6 +6,8 @@ import Objectives from "./components/Objectives/Objectives"
 import Slogan from "./components/Slogan/Slogan"
 import SignUp from "./components/SignUp/SignUp"
 import TextAnimation from "./components/TextAnimation/TextAnimation"
+import Store from "./components/Store/Store"
+import Future from "./components/Future/Future"
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Slogan />
       <SignUp />
       <TextAnimation />
+      <Store />
+      <Future />
        {/* section to buy card = https://codepen.io/ff0004-red/pen/WxJEJZ*/}
     </div>
   );
