@@ -4,6 +4,7 @@
     width: 100vw;
     position: fixed;
     z-index: 100;
+    transition: 200ms ease-in-out;
 }
 
 .container {
@@ -13,7 +14,15 @@
     margin: 1vh auto;
     padding: 1vh 1.5vw;
     box-sizing: border-box; 
+    transition: 170ms ease-in-out;
 }
+
+
+.container-scrolled { 
+    margin: 0vh auto !important;
+    padding: 0vh 1.5vw !important; 
+}
+
 
 .logo {
     display: flex;
@@ -24,12 +33,12 @@
     margin: 0 .7vw; 
 }
 
-.on-scroll { 
+.on-scroll {  
     background: rgba(255, 255, 255, 0.2); 
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(9.2px);
     -webkit-backdrop-filter: blur(9.2px);
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .container h2 {

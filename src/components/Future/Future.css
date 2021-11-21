@@ -7,7 +7,7 @@
 
 .future h2 {
     font-size: 4.5rem;
-    margin: 10vh 0;
+    margin: 10vh 0 5vh 0;
     color:   #619B8A;
 }
 
@@ -30,6 +30,14 @@
 .future .button  .green {
     background-color:  #619B8A;
 }
+.future .button  .light-red { 
+    background-color: #f2848270;
+ 
+}
+
+.future .button  .light-green {
+    background-color:  #619b8a75;
+}
 
 
 .future .button  .red:hover { 
@@ -42,10 +50,19 @@
 
 .future .looks-like-container { 
     margin-top: 7vh;
-    padding: 8vh 3vw;
+    padding: 5vh 3vw;
     background-color: #619b8a80;
     text-align: left;
 }
+
+
+.future .looks-like-container-red{
+    margin-top: 7vh;
+    padding: 5vh 3vw;
+    background-color: #f2848278;
+    text-align: left;
+}
+
 
 .future .looks-like h2{
     margin: 0 0 ; 
@@ -60,11 +77,25 @@
 }
 
 .future .looks-like .grid{
- display: grid;
- grid-template-columns: 1fr 1fr 1fr;   
- margin: 4vh 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+    margin: 6vh 0;
+    padding: 0 2vw;
+}
+ 
+.future .looks-like .grid img { 
+    width: 80%;
 }
 
+.future .looks-like .grid h2 { 
+    font-size: 1.7rem;
+    margin: 0 0 ;
+}
 
+.future .looks-like .grid p {
+    width: 80%; 
+    font-size: 1.1rem;
+    margin: 0 0 ; 
+}
 
 

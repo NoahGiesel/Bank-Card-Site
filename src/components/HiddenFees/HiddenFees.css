@@ -1,0 +1,47 @@
+.hiddenFees { 
+    width: 65%;
+    margin: 13vh auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: 2;
+
+}
+
+
+.hiddenFees h2 {
+    font-size: 4rem;
+    color: #619B8A;
+}
+
+.hiddenFees   span{
+    text-decoration: underline;
+    color: #619B8A;
+    cursor: pointer;
+}
+
+.hiddenFees p {
+    font-size: 1.2rem;
+    color: #373F51 ;
+    margin: 0 0 5vh 0;
+}
+
+.hiddenFees a { 
+    font-size: 1.4rem;
+    margin: 5vh 0;
+    color: #fff;
+    background-color: #619B8A;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+.hiddenFees a:hover {  
+    background-color: #498170; 
+}
+
+
+
+.hiddenFees img {
+    width: 90%;
+    margin: 5vh auto;
+}
