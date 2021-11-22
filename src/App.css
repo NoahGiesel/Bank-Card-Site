@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
+body { 
+  scroll-behavior: smooth;
+}
 
 .App {
 
   /* background: linear-gradient(to bottom, #ee4b4b, #fad65f 50%, #DB1174, #9B4CA7); */
-  background-color:#faf0d5;
-  font-family: 'Baloo 2', cursive; 
+  background-color:hsl(49, 79%, 91%);
+  font-family: 'Baloo 2', cursive;  
 }
  
 

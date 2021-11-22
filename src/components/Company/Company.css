@@ -1,0 +1,15 @@
+.company { 
+     
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between; 
+    align-items: center;
+    width: 70%;
+    margin:  12vh auto;
+    justify-items: center;
+    text-align: center;
+}
+
+.company img {
+    width: 20%; 
+}

@@ -11,8 +11,7 @@ const Header = () => {
     const listenScrollEvent = e => {
         if (window.scrollY > 30) {
             setScroll(true)
-        }else { 
-            
+        }else {  
             setScroll(false)
         }
       }

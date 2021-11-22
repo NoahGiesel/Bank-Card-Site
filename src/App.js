@@ -7,6 +7,7 @@ import Slogan from "./components/Slogan/Slogan"
 import SignUp from "./components/SignUp/SignUp"
 import TextAnimation from "./components/TextAnimation/TextAnimation"
 import Store from "./components/Store/Store"
+import Company from "./components/Company/Company"
 import Future from "./components/Future/Future"
 import HiddenFees from "./components/HiddenFees/HiddenFees"
 import Parallax from "./components/Parallax/Parallax"
@@ -22,6 +23,7 @@ function App() {
       <SignUp />
       <TextAnimation />
       <Store />
+      <Company />
       <Future />
       <HiddenFees />
       <Parallax/>

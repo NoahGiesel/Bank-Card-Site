@@ -1,6 +1,6 @@
 .hiddenFees { 
     width: 65%;
-    margin: 13vh auto 0 auto;
+    margin: 8vh auto 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     z-index: 2;

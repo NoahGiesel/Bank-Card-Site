@@ -10,16 +10,16 @@ const Parallax = () => {
     useEffect(() => {
     let quattro = document.getElementById("quattro");
     let tre = document.getElementById("tre");
-    let due = document.getElementById("due");
-
+    let due = document.getElementById("due"); 
+    
     window.addEventListener("scroll", function () {
         var value = window.scrollY;
   
         quattro.style.bottom = value * -0.15 + "px";
-        tre.style.bottom = value * -0.9 + "px";
-        due.style.bottom = value * -0.2 + "px"; 
+        tre.style.bottom = value * -0.7 + "px";
+        due.style.bottom = value * -0.1 + "px"; 
       });
-    });
+    },[]);
 
     return (
         <div className="parallax">
