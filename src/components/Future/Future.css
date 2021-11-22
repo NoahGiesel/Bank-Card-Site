@@ -99,3 +99,42 @@
 }
 
 
+ 
+@media  screen and (max-width: 1000px) {
+
+        
+    .future h2 {
+        font-size: 3rem;
+        margin: 10vh 0 5vh 0;
+    }
+
+    .future .looks-like h2{
+        font-size: 2rem;
+        line-height: 45px;
+    }
+    
+
+    .future .button  a{
+        padding: 1.5vh 2.3vw;
+        letter-spacing: 0px;
+        font-size:1rem;
+    }
+
+    .future .looks-like p{ 
+        font-size:1rem;
+    }
+
+
+    .future .looks-like .grid h2 { 
+        font-size: 1.2rem;
+        line-height: 25px;
+        margin: 2.8vh 0 ; 
+    }
+    
+    .future .looks-like .grid p {
+        width: 80%; 
+        font-size: .9rem;
+        margin: 0 0 ; 
+    }
+        
+}

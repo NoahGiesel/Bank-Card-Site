@@ -30,6 +30,7 @@
 }
 
  
+  
 .text-seciton .landing-container .text{ 
     margin-top: 7vh;
 }
@@ -87,4 +88,72 @@
 
 .text-seciton .landing-container .text a:hover{ 
     background-color : #F28482; 
+}
+
+
+ 
+
+@media  screen and (max-width: 1500px) {
+    
+    .text-seciton .landing-container h2 {
+        font-size: 3rem;
+        line-height: 55px;
+    }
+
+
+    .text-seciton .landing-container h3 {
+        font-size: 3rem; 
+    }
+
+    
+    .text-seciton .landing-container .text p { 
+        font-size: 1rem;
+    }
+
+    .text-seciton .landing-container .text a {
+        padding : .8vh .8vw;
+        font-size: 1rem;
+        margin: 0 1vw ; 
+        letter-spacing: 0px;
+    }
+
+
+  }
+
+
+  
+  
+@media  screen and (max-width: 950px) {
+    .text-seciton .landing-container h2 {
+        font-size: 2rem;
+        line-height: 25px; 
+        margin:  0 0;
+    }
+
+    .text-seciton .landing-container { 
+        margin-top: 10vh;
+    }
+    
+    .text-seciton .landing-container h3 {
+        font-size: 2rem; 
+        margin : 0 0 ;
+
+    }
+
+    .text-seciton .landing-container .text  {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .text-seciton .landing-container .text p { 
+        font-size: 1rem;
+    }
+
+    .text-seciton .landing-container .text a {
+        padding : .8vh .8vw;
+        font-size: 1rem;
+        margin: 3vh 1vw ; 
+        letter-spacing: 0px;
+    }
+
 }

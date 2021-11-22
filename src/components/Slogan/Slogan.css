@@ -30,3 +30,35 @@
     color: #373F51 ;
     margin: 2vh auto;
 }
+
+
+@media  screen and (max-width: 1500px) {
+
+    
+    .slogan h2 {
+        font-size: 2.5rem;
+    }
+ 
+
+    .slogan p {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
+@media  screen and (max-width: 950px) {
+
+ 
+        
+    .slogan h2 {
+        font-size: 1.8rem;
+    }
+ 
+
+    .slogan p {
+        font-size: 1.2rem;
+    }
+
+}

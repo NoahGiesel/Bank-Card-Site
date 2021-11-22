@@ -58,3 +58,34 @@
     color: #fff;
 
 }
+
+
+
+
+
+@media  screen and (max-width: 1000px) {
+
+    .store .group  {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .store a   {     
+        margin: 1vh 0  ;
+    }
+     
+    .store a img {     
+        max-width: 150px;
+    }
+
+    .store h2 {
+        font-size: 2rem;
+    }
+    
+    .store p {
+        font-size: 1rem;
+    }
+     
+ 
+    
+}

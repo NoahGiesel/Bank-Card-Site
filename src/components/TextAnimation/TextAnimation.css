@@ -36,3 +36,36 @@
     font-weight: bold;
     
 }
+
+
+@media  screen and (max-width: 1500px) {
+
+    .textAnimation h2 {
+        font-size: 3.5rem;
+    }
+
+    .textAnimation p{ 
+        font-size: 1.3rem;
+    }
+    
+    
+    .textAnimation .count h2 {
+        font-size: 4rem;
+    }   
+}
+
+
+@media  screen and (max-width: 950px) {
+    .textAnimation h2 {
+        font-size: 3rem;
+    }
+
+    .textAnimation p{ 
+        font-size: 1.1rem;
+    }
+    
+    
+    .textAnimation .count h2 {
+        font-size: 3.5rem;
+    }   
+}

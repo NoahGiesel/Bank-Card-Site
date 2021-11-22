@@ -13,3 +13,9 @@
 .company img {
     width: 20%; 
 }
+
+
+@media  screen and (max-width: 800px) {
+
+    /* maybe 2 by 2 */
+}

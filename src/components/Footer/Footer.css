@@ -1,63 +1,65 @@
-.footer {  
+.footer {
     background-color: #105157;
     padding-bottom: 5vh;
     color: #fff;
 }
 
-.footer .container   { 
+.footer .container {
     width: 70%;
     margin: 0 auto;
 }
 
-.footer h2 { 
-    margin: 0 0 ;
-    color : #fff ; 
+.footer h2 {
+    margin: 0 0;
+    color: #fff;
     font-size: 3rem;
     display: flex;
 }
 
 
-.footer .grid { 
+.footer .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 8vh 0 ;
+    margin: 8vh 0;
 }
-.footer .grid ul { 
+
+.footer .grid ul {
     list-style-type: none;
 }
-.footer .grid ul li{  
+
+.footer .grid ul li {
     margin: 5vh 0;
 }
 
-.footer .grid ul li:hover { 
+.footer .grid ul li:hover {
     cursor: pointer;
     text-decoration: underline;
 }
 
 .footer-left ul li .logo h2 {
-    font-size: 2rem !important; 
+    font-size: 2rem !important;
 }
 
-.footer-left ul li .logo h2 a{
+.footer-left ul li .logo h2 a {
     text-decoration: none !important;
 
 }
 
 .footer-left ul .get-card a {
-    font-size: 1.2rem ; 
+    font-size: 1.2rem;
     margin: 0 1vw;
-    padding : 1vh 2vw;
+    padding: 1vh 2vw;
     background-color: #fff;
-    color : #373F51;
+    color: #373F51;
     text-decoration: none;
-    transition: 300ms; 
+    transition: 300ms;
 }
 
 .footer-left ul .get-card a:hover {
     background-color: rgb(206, 206, 206);
 }
 
-.footer-left .socials { 
+.footer-left .socials {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 55%;
@@ -66,24 +68,94 @@
 }
 
 
-.footer-left .socials img{
+.footer-left .socials img {
     margin: 0 .5vw;
-    padding : .4vh .4vw;
+    padding: .4vh .4vw;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.068); 
+    background-color: rgba(255, 255, 255, 0.068);
 }
 
 
 .footer-left .socials img:hover {
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.226); 
-} 
- 
-.footer-text ul{
+    background-color: rgba(255, 255, 255, 0.226);
+}
+
+.footer-text ul {
     margin: 6vh 0 !important;
 }
 
-.footer-text ul li{
-    
+.footer-text ul li {
+
     margin: 3vh 0 !important;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 8vh 0;
+    }
+
+
+    .footer h2 {
+        font-size: 2.5rem;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 1000px) {
+
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 8vh 0;
+    }
+    
+    
+    .footer h2 {
+        font-size: 2.5rem;
+    }
+    
+    
+    
+    
+}
+
+@media screen and (max-width:620px) {
+    
+    
+        .footer .grid {
+            text-align: center;
+            grid-template-columns: 1fr ;
+        }
+ 
+        .footer-left ul li .logo {
+            margin-left: 40px;
+        }
+
+        
+        .footer-left .socials {
+            margin: 6vh auto;
+        }
+        
+        
+    .footer h2 {
+        font-size: 2rem;
+    }
+
+
+    .footer-text  {
+        margin: 0 auto;
+    }
+    
+
+
 }

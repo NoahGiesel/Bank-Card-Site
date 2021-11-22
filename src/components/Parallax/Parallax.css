@@ -39,3 +39,32 @@
     pointer-events: none;
 
 }
+
+
+
+@media  screen and (max-width: 1500px) {
+ 
+    .parallax   { 
+        height: 90vh;  
+    }
+
+}
+
+
+@media  screen and (max-width: 1030px) {
+    
+    .parallax   { 
+        width: 100%;
+    }
+
+
+}
+
+@media  screen and (max-width: 710px) { 
+    
+    .parallax   { 
+        height: 45vh;  
+    }
+
+
+}

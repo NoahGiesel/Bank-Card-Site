@@ -109,3 +109,13 @@
 .container .right a:hover{ 
     background-color : #F28482; 
 }
+
+
+
+
+@media  screen and (max-width: 950px) {
+
+    .container .center {
+        display: none;
+    }
+}

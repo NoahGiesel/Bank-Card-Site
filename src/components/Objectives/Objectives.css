@@ -42,3 +42,38 @@
     bottom : 0;
     right : -5% ;  
 }
+
+
+
+@media  screen and (max-width: 1500px) {
+    .objectives-container .grid img{
+        width: 30%;
+    }
+    .objectives-container .grid  {
+        font-size: 1rem;
+    }
+    .objectives-container .grid .bold {
+        font-size: 1.1rem;
+    }
+
+}
+
+
+@media  screen and (max-width: 950px) {
+
+    
+    .objectives-container {
+        position: relative;
+        display: grid ; 
+        grid-template-columns: 1fr  ;
+        justify-items: center;
+        text-align: center;
+        color : #fff;
+    }
+    .objectives-container .grid img{
+        width: 20%;
+    }
+    .objectives-container .grid  {
+        margin: 1vh 0;
+    }
+}

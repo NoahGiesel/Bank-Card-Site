@@ -45,3 +45,34 @@
     width: 90%;
     margin: 5vh auto;
 }
+
+
+
+@media  screen and (max-width: 1500px) {
+
+    .hiddenFees h2 {
+        font-size: 3rem;
+    }
+
+    
+    .hiddenFees p {
+        font-size: 1rem;
+    }
+
+    .hiddenFees a { 
+        font-size: 1.1rem;
+        padding: .5rem 1.3rem;
+    }
+
+    
+}
+
+
+@media  screen and (max-width: 1000px) {
+    
+    .hiddenFees { 
+        grid-template-columns: 1fr ;
+    }   
+
+
+}
