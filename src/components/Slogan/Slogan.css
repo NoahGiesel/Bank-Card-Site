@@ -62,3 +62,11 @@
     }
 
 }
+
+@media  screen and (max-width: 700px) {
+    .slogan h2 {
+        width: 90%;
+    }
+    
+
+}

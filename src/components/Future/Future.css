@@ -138,3 +138,24 @@
     }
         
 }
+
+
+@media  screen and (max-width: 700px) {
+    .future {
+        width: 90%;
+    }
+    
+    .future .looks-like .grid{
+        grid-template-columns: 1fr  ;   
+        text-align: center;
+    }
+     
+     
+
+    .future .looks-like .grid p {
+        width: 90%; 
+        font-size: 1.1rem;
+        margin: 3vh auto ; 
+    }
+
+}

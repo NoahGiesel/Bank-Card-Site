@@ -114,8 +114,30 @@
 
 
 @media  screen and (max-width: 950px) {
-
+    
     .container .center {
         display: none;
+    }
+    
+}
+    
+@media  screen and (max-width: 600px) {
+     
+    .container h2 {
+        font-size: 1.5rem;
+        margin: auto.7vw; 
+    }
+    .logo img {
+        width: 30px;
+        margin: 0 .7vw; 
+    }
+    .container .right {
+        position: absolute;
+        right: 0%;
+    }
+
+    .container .right a{ 
+        padding : .7vh 1.2vw;
+        letter-spacing: 0px;
     }
 }

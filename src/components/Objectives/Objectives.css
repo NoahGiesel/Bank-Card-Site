@@ -77,3 +77,13 @@
         margin: 1vh 0;
     }
 }
+
+
+    
+@media  screen and (max-width: 600px) {
+    .objectives { 
+        position: relative; 
+        background-color: #619B8A;
+        width: 80%;
+    }
+}

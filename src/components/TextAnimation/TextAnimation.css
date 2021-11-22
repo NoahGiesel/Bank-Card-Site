@@ -69,3 +69,21 @@
         font-size: 3.5rem;
     }   
 }
+
+
+
+@media  screen and (max-width: 600px) {
+    .textAnimation {
+        width: 80%;
+        margin: 12vh auto;
+    }
+
+    
+.textAnimation h2 {
+    font-size: 2rem;
+    line-height: 60px;
+}
+
+
+
+}

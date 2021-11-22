@@ -82,3 +82,11 @@
  
 
 }
+
+
+
+@media  screen and (max-width: 600px) {
+    .signup { 
+        width: 80%;
+    }
+}
