@@ -45,7 +45,7 @@
 @media  screen and (max-width: 1500px) {
  
     .parallax   { 
-        height: 60vh;  
+        height: 55vh;  
     }
 
 }
@@ -63,7 +63,7 @@
 @media  screen and (max-width: 710px) { 
     
     .parallax   { 
-        height: 25vh;  
+        height: 23vh;  
     }
 
 
